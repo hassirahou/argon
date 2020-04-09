@@ -1,0 +1,400 @@
+
+
+<template>
+
+    <main>
+
+
+
+
+            <section class="position-relative pb-md-5" >
+
+                    <header class="header-global" >
+                            <base-nav class="navbar-main bg-primary" transparent type="" effect="light" expand>
+
+
+                                <div class="row" slot="content-header" slot-scope="{closeMenu}">
+                                    <div class="col-6 collapse-brand">
+                                        <a href="../index.html">
+                                            <h1>Accueil</h1>
+                                        </a>
+                                    </div>
+                                    <div class="col-6 collapse-close">
+                                        <close-button @click="closeMenu"></close-button>
+                                    </div>
+                                </div>
+
+                                <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+                                    <li class="nav-item dropdown">
+                                        <a href="#" class="nav-link" data-toggle="dropdown" role="button">
+                                            
+                                            <span class="nav-link-inner--text ">Mes Animaux</span>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-xl">
+                                            <div class="dropdown-menu-inner">
+                                                <a href="https://fr.wikipedia.org/wiki/Ursidae"
+                                                class="media d-flex align-items-center">
+                                                    <div class="icon rounded-circle text-white">
+                                                      <img src="./img_El_Azhar/theme/Ours1.png" class="img-fluid" >
+                                                    </div>
+                                                    <div class="media-body ml-3">
+                                                        <h6 class="heading text-primary mb-md-1">Ours</h6>
+                                                        <p class="description d-none d-md-inline-block mb-0">Le lion (Panthera leo) est une espèce de mammifères carnivores de la famille des félidés.</p>
+                                                    </div>
+                                                </a>
+                                                <a href="https://fr.wikipedia.org/wiki/Lion"
+                                                class="media d-flex align-items-center">
+                                                    <div class="icon rounded-circle text-white">
+                                                      <img src="./img_El_Azhar/theme/Lion1.png" class="img-fluid" >
+                                                    </div>
+                                                    <div class="media-body ml-3">
+                                                        <h5 class="heading text-warning mb-md-1">Lion</h5>
+                                                        <p class="description d-none d-md-inline-block mb-0">Le lion (Panthera leo) est une espèce de mammifères carnivores de la famille des félidés.</p>
+                                                    </div>
+                                                </a>
+                                                 <a href="https://fr.wikipedia.org/wiki/%C3%89l%C3%A9phant"
+                                                class="media d-flex align-items-center" >
+                                                    <div class="icon rounded-circle text-white">
+                                                      <img src="./img_El_Azhar/theme/Elephent1.png" class="img-fluid" >
+                                                    </div>
+                                                    <div class="media-body ml-3">
+                                                        <h5 class="heading text-warning mb-md-1">Elephant</h5>
+                                                        <p class="description d-none d-md-inline-block mb-0">Le lion (Panthera leo) est une espèce de mammifères carnivores de la famille des félidés.</p>
+                                                    </div>
+                                                </a>
+                                                
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a href="#" class="nav-link" data-toggle="dropdown" role="button">
+                                           
+                                            <span class="nav-link-inner--text">Adheron</span>
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <router-link to="/landing" class="dropdown-item">Sign-in</router-link>
+                                            <router-link to="/profile" class="dropdown-item">Sign-up</router-link>
+                                        </div>
+                                    </li>
+                                                                        <li class="nav-item">
+                                        <a class="nav-link nav-link-icon" href="http://192.168.0.10:8080/" target="_blank"
+                                        data-toggle="tooltip" title="Like us on Facebook">
+                                           
+                                            <span >IAAA</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link nav-link-icon" href="http://192.168.0.10:8080/"
+                                        target="_blank" data-toggle="tooltip" title="Follow us on Instagram">
+                                            
+                                            <span >Associations</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link nav-link-icon" href="http://192.168.0.10:8080/" target="_blank"
+                                        data-toggle="tooltip" title="Follow us on Twitter">
+                                            
+                                            <span >Animaux</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link nav-link-icon" href="http://192.168.0.10:8080/"
+                                        target="_blank" data-toggle="tooltip" title="Star us on Github">
+                                           
+                                            <span>Aides</span>
+                                        </a>
+                                    </li>
+                                   <li class="nav-item">
+                                        <a class="nav-link nav-link-icon" href="http://192.168.0.10:8080/"
+                                        target="_blank" data-toggle="tooltip" title="Star us on Github">
+                                        
+                                            <span >Contact</span>
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </base-nav>
+                    </header>
+            </section>
+
+            <section>
+              <div >                       
+                      <img  class="img-fluid" src="src\X_El_Azhar\img_El_Azhar\theme\OursC.jpg" alt="grizzly"  >
+                    
+                    <div class="display1">
+                      Ours
+                    </div>               
+                
+                    
+                  <div>
+                    Le lion (Panthera leo) est une espèce de mammifères carnivores de la famille des félidés. 
+                    La femelle du lion est la lionne, son petit est le lionceau. 
+                    Le mâle adulte, aisément reconnaissable à son importante 
+                    crinière, accuse une masse moyenne qui peut être variable selon 
+                    s zones géographiques où il se trouve, allant de 180 kg pour
+                    les lions de Kruger à 230 kg pour les lions de Transvaal.
+                    Certains spécimens très rares peuvent dépasser
+                    exceptionnellement 250 kg. Un mâle adulte se nourrit de 
+                    7 kg de viande chaque jour contre 5 kg chez la femelle. 
+                    Le lion est un animal grégaire, c'est-à-dire qu'il vit 
+                    en larges groupes familiaux, contrairement aux autres félins.
+                    Son espérance de vie, à l'état sauvage, est comprise entre
+                    7 et 12 ans pour le mâle et 14 à 20 ans pour la femelle,
+                    mais il dépasse fréquemment les 30 ans en captivité.                    
+                  </div>
+
+              </div>    
+            </section>
+
+
+
+
+
+  
+        
+                                                <!-- shape Hero -->
+        
+            <section class="position-relative pb-md-5" >
+
+                    <header class="header-global" >
+                            <base-nav class="navbar-main bg-primary" transparent type="" effect="light" expand>
+
+
+                                <div class="row" slot="content-header" slot-scope="{closeMenu}">
+                                    <div class="col-6 collapse-brand">
+                                        <a href="../index.html">
+                                            <h1>Accueil</h1>
+                                        </a>
+                                    </div>
+                                    <div class="col-6 collapse-close">
+                                        <close-button @click="closeMenu"></close-button>
+                                    </div>
+                                </div>
+
+                                <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+                                    <li class="nav-item dropdown">
+                                        <a href="#" class="nav-link" data-toggle="dropdown" role="button">
+                                            
+                                            <span class="nav-link-inner--text ">Mes Animaux</span>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-xl">
+                                            <div class="dropdown-menu-inner">
+                                                <a href="https://fr.wikipedia.org/wiki/Ursidae"
+                                                class="media d-flex align-items-center">
+                                                    <div class="icon rounded-circle text-white">
+                                                      <img src="./img_El_Azhar/theme/Ours1.png" class="img-fluid" >
+                                                    </div>
+                                                    <div class="media-body ml-3">
+                                                        <h6 class="heading text-primary mb-md-1">Ours</h6>
+                                                        <p class="description d-none d-md-inline-block mb-0">Le lion (Panthera leo) est une espèce de mammifères carnivores de la famille des félidés.</p>
+                                                    </div>
+                                                </a>
+                                                <a href="https://fr.wikipedia.org/wiki/Lion"
+                                                class="media d-flex align-items-center">
+                                                    <div class="icon rounded-circle text-white">
+                                                      <img src="./img_El_Azhar/theme/Lion1.png" class="img-fluid" >
+                                                    </div>
+                                                    <div class="media-body ml-3">
+                                                        <h5 class="heading text-warning mb-md-1">Lion</h5>
+                                                        <p class="description d-none d-md-inline-block mb-0">Le lion (Panthera leo) est une espèce de mammifères carnivores de la famille des félidés.</p>
+                                                    </div>
+                                                </a>
+                                                 <a href="https://fr.wikipedia.org/wiki/%C3%89l%C3%A9phant"
+                                                class="media d-flex align-items-center" >
+                                                    <div class="icon rounded-circle text-white">
+                                                      <img src="./img_El_Azhar/theme/Elephent1.png" class="img-fluid" >
+                                                    </div>
+                                                    <div class="media-body ml-3">
+                                                        <h5 class="heading text-warning mb-md-1">Elephant</h5>
+                                                        <p class="description d-none d-md-inline-block mb-0">Le lion (Panthera leo) est une espèce de mammifères carnivores de la famille des félidés.</p>
+                                                    </div>
+                                                </a>
+                                                
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a href="#" class="nav-link" data-toggle="dropdown" role="button">
+                                           
+                                            <span class="nav-link-inner--text">Adheron</span>
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <router-link to="/landing" class="dropdown-item">Sign-in</router-link>
+                                            <router-link to="/profile" class="dropdown-item">Sign-up</router-link>
+                                        </div>
+                                    </li>
+                                                                        <li class="nav-item">
+                                        <a class="nav-link nav-link-icon" href="http://192.168.0.10:8080/" target="_blank"
+                                        data-toggle="tooltip" title="Like us on Facebook">
+                                           
+                                            <span >IAAA</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link nav-link-icon" href="http://192.168.0.10:8080/"
+                                        target="_blank" data-toggle="tooltip" title="Follow us on Instagram">
+                                            
+                                            <span >Associations</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link nav-link-icon" href="http://192.168.0.10:8080/" target="_blank"
+                                        data-toggle="tooltip" title="Follow us on Twitter">
+                                            
+                                            <span >Animaux</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link nav-link-icon" href="http://192.168.0.10:8080/"
+                                        target="_blank" data-toggle="tooltip" title="Star us on Github">
+                                           
+                                            <span>Aides</span>
+                                        </a>
+                                    </li>
+                                   <li class="nav-item">
+                                        <a class="nav-link nav-link-icon" href="http://192.168.0.10:8080/"
+                                        target="_blank" data-toggle="tooltip" title="Star us on Github">
+                                        
+                                            <span >Contact</span>
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </base-nav>
+                    </header>
+            </section>
+
+       
+            <!-- animal presenttation  -->
+
+        <section class="position-relative pt-5 ">
+
+
+
+                            <div class="row-lg-4 mt-md-5">
+                               
+                                    <div class="row  mt-3 mx-1 d-flex justify-content-between border border-dark"  style="background: rgba(255, 150, 52, 0.253);">
+                                        <a class="col-md-3 border border-dark" href="src\X_El_Azhar\Ours.vue">
+                                            <img  id="Ours" class="img-fluid" src="./img_El_Azhar/theme/Ours1.png"  >
+                                        </a>
+                                        <h1 class="col-md-1S h1">Ours</h1>
+                                        <p class="col-md-6">
+                                            Le lion (Panthera leo) est une espèce de mammifères carnivores de
+                                            la famille des félidés. 
+                                            </p>
+                                    </div>
+
+                            </div>
+                            <div class="row-lg-4">
+                                
+                                    <div class="row mt-3 mx-1 d-flex justify-content-between border border-dark" style="background: rgba(255, 200, 149, 0.281);" >
+                                            <a class="col-md-3 border border-dark" href="Lion.html">
+                                            <img id="Lion" class="img-fluid" src="./img_El_Azhar/theme/Lion1.png" >
+                                            </a>
+                                            <h1 class="col-md- h1">Lion</h1>
+                                            <p class="col-md-6 " >
+                                            Le lion (Panthera leo) est une espèce de mammifères carnivores de
+                                            la famille des félidés.              
+                                            </p>
+                                    </div>
+                             
+                            </div>
+                            <div class="row-lg-4">
+                                
+                                    <div class="row mt-3 mx-1 d-flex justify-content-between border border-dark" style="background: rgba(163, 167, 167, 0.329);">
+                                            <a class="col-md-3 border border-dark" href="Eléphant.html">
+                                            <img id="Elephent" class="img-fluid" src="./img_El_Azhar/theme/Elephent1.png"  >
+                                            </a>
+                                            
+                                            <h1  class="col-md-1S h1">Eléphant</h1>
+                                        
+                                            <p class="col-md-6">
+                                        
+                                            Le lion (Panthera leo) est une espèce de mammifères carnivores de
+                                            la famille des félidés. 
+                                            </p>
+                                    </div>
+                            
+                            </div>
+
+
+
+        </section>
+
+
+
+
+
+        <section class="position-relative my-5">
+
+                    <div class="col-lg-12">
+                        <div class="row row-grid">
+
+                            <div class="col-lg-6">
+                                <card class="border-0" hover shadow body-classes="py-5" style="background: rgba(255, 150, 52, 0.253);">
+                                        <h4 class="display-3 font-weight-bold  text-center ">Nos Animaux</h4>
+
+                                        <div class=" mx-2" >
+                                        
+                                            <img src="./img_El_Azhar/theme/AFPA.jpg" class="img-fluid" >
+                                            </div>
+                                       
+                                        <p class="my-0"><span>mes animeaux preferes <br/>AFPA Creteil<br/>Adresse : 9 Rue Marc Seguin, 94015 Créteil</span></p>
+                                </card>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <card class="border-0 py-3" hover shadow body-classes="py-5" style="background: rgba(255, 150, 52, 0.253);">
+                                            <h4 class="display-3 font-weight-bold  text-center mt-5">CONTACT</h4>
+
+                                            <base-input class="mt-3"
+                                                        alternative
+                                                        placeholder="Your name"
+                                                        addon-left-icon="ni ni-user-run">
+                                            </base-input>
+                                            <base-input alternative
+                                                        placeholder="Email address"
+                                                        addon-left-icon="ni ni-email-83">
+                                            </base-input>
+                                            <base-input class="mb-4">
+                                                    <textarea class="form-control form-control-alternative" name="name" rows="4"
+                                                            cols="80" placeholder="Type a message..."></textarea>
+                                            </base-input>
+                                            <base-button class="mt-5" type="default" round block size="lg">
+                                                ENVOYER
+                                            </base-button>
+                                </card>
+                            </div>
+
+                        </div>
+                    </div>
+
+        </section>
+
+
+
+
+    </Main>
+</template>
+
+<script>
+export default {
+  name: "home",
+  components: {}
+};
+</script>
+            <script>
+import BaseNav from "@/components/BaseNav";
+import CloseButton from "@/components/CloseButton";
+
+export default {
+  components: {
+    BaseNav,
+    CloseButton
+  }
+};
+</script>
+<style>
+</style>
+
+
